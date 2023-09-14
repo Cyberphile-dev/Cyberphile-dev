@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML5 Canvas</h1>
+<h2>The fillRect() Method</h2>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+<script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+ctx.fillRect(20, 20, 150, 100);
+</script> 
+<body onload="draw();">
+
+<canvas id="circle" width="500" height="500" style="border:1px solid blueviolet"</canvas>
+
+
+<script> const canvas = document.getElementById("circle"); 
+const context = canvas.getContext("2d"); 
+const centerX = canvas.width / 2; 
+const centerY = canvas.height / 2; 
+const radius = 250; 
+context.beginPath(); 
+context.arc(centerX, centerY, radius, 0, 2 * Math.PI); 
+context.stroke(); 
+</script>
+<script>
+
+</script>
+</body>
+</body>
+</html>
